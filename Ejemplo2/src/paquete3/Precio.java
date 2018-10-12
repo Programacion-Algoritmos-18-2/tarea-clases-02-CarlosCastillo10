@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejemplo2;
+package paquete3;
 
 /**
  *
@@ -22,6 +22,16 @@ public class Precio {
     //Metodo que permite asignarle un valor a la variable 'euros'.
     public void agregar(double x){
         euros = x;
+    }
+    
+    //Constructores que llaman al metodo agregar.
+    public Precio(){ //Constructor de que no recibe ningun parametro
+        agregar(30.2);
+    }
+    
+    
+    public Precio(double y){ //Constructor que recibe un parametro.
+        agregar(y);
     }
     
 }

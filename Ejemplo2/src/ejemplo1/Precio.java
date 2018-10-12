@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejemplo2;
+package ejemplo1;
 
 /**
  *
@@ -11,7 +11,7 @@ package ejemplo2;
  */
 public class Precio {
     
-    private double euros;//Variable privada.
+    double euros;//Variable global
     
     //Metodo que permite retornar el valor que contiene la variable 'euros'.
     public double obtener(){
@@ -19,9 +19,10 @@ public class Precio {
         return euros;
     }
     
-    //Metodo que permite asignarle un valor a la variable 'euros'.
+   
     public void agregar(double x){
-        euros = x;
+        
     }
+    
     
 }

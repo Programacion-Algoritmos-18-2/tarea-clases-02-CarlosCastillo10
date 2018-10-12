@@ -3,21 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejemplo2;
+package ejemplo1;
 
 /**
  *
  * @author carlos
  */
 public class Principal {
-    
+
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
         // TODO code application logic here
         
         Precio p = new Precio();//Creamos el objeto 'p' de tipo Precio
-        p.agregar(20.2);//Asignamos un valor al atributo euros.
+        p.euros = 10.1;//Asignamos un valor al atributo euros.
         
-        System.out.println(p.obtener());//Presenta en pantalla el valor del atributo euros.
+        System.out.println(p.euros);//Presenta en pantalla el valor del atributo euros.
     }
-    
 }
